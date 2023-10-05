@@ -1,0 +1,63 @@
+
+# PEP 582; используется, например, github.com/David-OConnor/pyflow и github.com/pdm-project/pdm
+__pypackages__/
+
+# Начинка из сельдерея
+отбивная из сельдерея-расписание
+отбивная из сельдерея.pid
+
+# SageMath проанализировал файлы
+*.sage.py
+
+# Среды
+../venv/.env
+.venv
+.env
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Настройки проекта Spyder
+.spyderproject
+.spyproject
+
+# Настройки проекта Rope
+.ropeproject
+
+# документация mkdocs
+/сайт
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Проверка типа погребального костра
+.pyre/
+
+# статический анализатор типов pytype
+.pytype/
+
+# Символы отладки Cython
+cython_debug/
+
+# PyCharm
+ Конкретный шаблон # JetBrains поддерживается в отдельном файле JetBrains.gitignore, который можно
+# найти по адресу https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+# и который может быть добавлен в глобальный файл gitignore или объединен в этот файл. Для более эффективного
+# варианта (не рекомендуется) вы можете раскомментировать следующее, чтобы игнорировать всю папку idea.
+.idea/
+
+### Исправление для Python ###
+# Файл локальной конфигурации Poetry - https://python-poetry.org/docs/configuration/#local-configuration
+poetry.toml
+
+# ruff
+.ruff_cache/
+
+# Конфигурационные файлы LSP
+pyrightconfig.json
+
+# Завершение https://www.toptal.com/developers/gitignore/api/python
