@@ -9,6 +9,7 @@ from db.shopdb import get_product
 shop_router = Router()
 
 
+
 @shop_router.message(Command("shop"))
 async def shop(message: types.Message):
     kb = ReplyKeyboardMarkup(
